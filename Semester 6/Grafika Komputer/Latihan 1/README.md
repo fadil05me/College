@@ -4,6 +4,8 @@ This is my first project
 
 ## Screenshoot
 
+![SS](https://raw.githubusercontent.com/fadil05me/College/master/Semester%206/Grafika%20Komputer/Latihan%201/Project1.png)
+
 
 ## My System
 
