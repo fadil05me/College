@@ -1,6 +1,6 @@
-# Latihan 1
+# Latihan 2
 
-This is my first project
+This is my Second project
 
 ## Screenshoot
 
