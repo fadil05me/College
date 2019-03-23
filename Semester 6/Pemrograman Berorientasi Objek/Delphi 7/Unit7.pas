@@ -1,0 +1,82 @@
+unit Unit7;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm7 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure TForm7.Button1Click(Sender: TObject);
+
+  var
+    nilai,keterangan : integer;
+begin
+
+  nilai := strtoint(edit1.Text);
+  keterangan := strtoint(edit2.Text);
+
+  if nilai > keterangan then
+  begin
+    edit3.Text := 'Benar';
+  end
+  else
+  begin
+    edit3.text := 'Salah';
+  end;
+
+end;
+
+procedure TForm7.Button2Click(Sender: TObject);
+begin
+edit3.Text := '';
+edit2.Text := '';
+edit1.Text := '';
+edit1.SetFocus;
+end;
+
+procedure TForm7.Button3Click(Sender: TObject);
+begin
+form7.close;
+end;
+
+procedure TForm7.FormCreate(Sender: TObject);
+var
+rgn: hrgn;
+begin
+rgn:=CreateRectRgn(30,30,470,470);
+
+SetWindowRgn(handle,rgn,true);
+end;
+
+end.
