@@ -1,8 +1,9 @@
 object Form4: TForm4
-  Left = 496
-  Top = 314
+  Left = 164
+  Top = 117
   Width = 928
   Height = 480
+  BorderIcons = []
   Caption = 'Konversi Nilai'
   Color = clTeal
   Font.Charset = DEFAULT_CHARSET

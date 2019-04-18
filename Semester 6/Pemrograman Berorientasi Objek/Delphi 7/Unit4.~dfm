@@ -1,6 +1,6 @@
 object Form4: TForm4
-  Left = 376
-  Top = 149
+  Left = 496
+  Top = 314
   Width = 928
   Height = 480
   Caption = 'Konversi Nilai'

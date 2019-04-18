@@ -1,6 +1,6 @@
 object Form2: TForm2
-  Left = 350
-  Top = 133
+  Left = 223
+  Top = 341
   Width = 928
   Height = 480
   HorzScrollBar.Visible = False
@@ -35670,9 +35670,9 @@ object Form2: TForm2
         Caption = 'Identitas Diri'
         OnClick = identitasClick
       end
-      object Form31: TMenuItem
-        Caption = 'Form 3'
-        OnClick = Form31Click
+      object Form31ks: TMenuItem
+        Caption = 'Form 3 kosong'
+        OnClick = Form31ksClick
       end
     end
     object Pertemuan21: TMenuItem
@@ -35714,6 +35714,95 @@ object Form2: TForm2
       object WhileRepeat1: TMenuItem
         Caption = 'While - Repeat'
         OnClick = WhileRepeat1Click
+      end
+    end
+    object Latihan1: TMenuItem
+      Caption = 'Latihan'
+      object Lat11: TMenuItem
+        Caption = 'Lat 1'
+        OnClick = Lat11Click
+      end
+      object Lat21: TMenuItem
+        Caption = 'Lat 2'
+        OnClick = Lat21Click
+      end
+      object Lat31: TMenuItem
+        Caption = 'Lat 3'
+        OnClick = Lat31Click
+      end
+      object Lat41: TMenuItem
+        Caption = 'Lat 4'
+        OnClick = Lat41Click
+      end
+      object Lat51: TMenuItem
+        Caption = 'Lat 5'
+        OnClick = Lat51Click
+      end
+      object Lat61: TMenuItem
+        Caption = 'Lat 6'
+        OnClick = Lat61Click
+      end
+      object Lat71: TMenuItem
+        Caption = 'Lat 7'
+        OnClick = Lat71Click
+      end
+      object Lat81: TMenuItem
+        Caption = 'Lat 8'
+        OnClick = Lat81Click
+      end
+      object Lat91: TMenuItem
+        Caption = 'Lat 9'
+        OnClick = Lat91Click
+      end
+      object Lat101: TMenuItem
+        Caption = 'Lat 10'
+        OnClick = Lat101Click
+      end
+      object Lat111: TMenuItem
+        Caption = 'Lat 11'
+        OnClick = Lat111Click
+      end
+      object Lat121: TMenuItem
+        Caption = 'Lat 12'
+        OnClick = Lat121Click
+      end
+      object Lat131: TMenuItem
+        Caption = 'Lat 13'
+        OnClick = Lat131Click
+      end
+    end
+    object UTS1: TMenuItem
+      Caption = 'UTS'
+      object Soal11: TMenuItem
+        Caption = 'Soal 1'
+        OnClick = Soal11Click
+      end
+      object Soal21: TMenuItem
+        Caption = 'Soal 2'
+        OnClick = Soal21Click
+      end
+      object Soal31: TMenuItem
+        Caption = 'Soal 3'
+        OnClick = Soal31Click
+      end
+      object Soal41: TMenuItem
+        Caption = 'Soal 4'
+        OnClick = Soal41Click
+      end
+      object Soal51: TMenuItem
+        Caption = 'Soal 5'
+        OnClick = Soal51Click
+      end
+    end
+    object UTS21: TMenuItem
+      Caption = 'UTS 2'
+      object N11: TMenuItem
+        Caption = '1'
+        OnClick = N11Click
+      end
+      object N21: TMenuItem
+        Caption = '2'
+        OnClick = N21Click
       end
     end
   end

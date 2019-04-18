@@ -13,7 +13,7 @@ type
     Pertemuan21: TMenuItem;
     Pertemuan31: TMenuItem;
     identitas: TMenuItem;
-    Form31: TMenuItem;
+    Form31ks: TMenuItem;
     Image1: TImage;
     Timer1: TTimer;
     Label1: TLabel;
@@ -31,8 +31,31 @@ type
     PercabanganCase1: TMenuItem;
     ASCDESC1: TMenuItem;
     WhileRepeat1: TMenuItem;
+    Latihan1: TMenuItem;
+    Lat11: TMenuItem;
+    Lat21: TMenuItem;
+    Lat31: TMenuItem;
+    Lat41: TMenuItem;
+    Lat51: TMenuItem;
+    Lat61: TMenuItem;
+    Lat71: TMenuItem;
+    Lat81: TMenuItem;
+    Lat91: TMenuItem;
+    Lat101: TMenuItem;
+    Lat111: TMenuItem;
+    Lat121: TMenuItem;
+    Lat131: TMenuItem;
+    UTS1: TMenuItem;
+    Soal11: TMenuItem;
+    Soal21: TMenuItem;
+    Soal31: TMenuItem;
+    Soal41: TMenuItem;
+    Soal51: TMenuItem;
+    UTS21: TMenuItem;
+    N11: TMenuItem;
+    N21: TMenuItem;
     procedure identitasClick(Sender: TObject);
-    procedure Form31Click(Sender: TObject);
+    procedure Form31ksClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure Timer1Timer(Sender: TObject);
     procedure Timer2Timer(Sender: TObject);
@@ -44,6 +67,26 @@ type
     procedure PercabanganCase1Click(Sender: TObject);
     procedure ASCDESC1Click(Sender: TObject);
     procedure WhileRepeat1Click(Sender: TObject);
+    procedure Lat11Click(Sender: TObject);
+    procedure Lat21Click(Sender: TObject);
+    procedure Lat31Click(Sender: TObject);
+    procedure Lat41Click(Sender: TObject);
+    procedure Lat51Click(Sender: TObject);
+    procedure Lat61Click(Sender: TObject);
+    procedure Lat71Click(Sender: TObject);
+    procedure Lat81Click(Sender: TObject);
+    procedure Lat91Click(Sender: TObject);
+    procedure Lat101Click(Sender: TObject);
+    procedure Lat111Click(Sender: TObject);
+    procedure Lat121Click(Sender: TObject);
+    procedure Lat131Click(Sender: TObject);
+    procedure Soal11Click(Sender: TObject);
+    procedure Soal21Click(Sender: TObject);
+    procedure Soal31Click(Sender: TObject);
+    procedure Soal41Click(Sender: TObject);
+    procedure Soal51Click(Sender: TObject);
+    procedure N11Click(Sender: TObject);
+    procedure N21Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -58,7 +101,9 @@ var
 implementation
 
 uses Unit1, Unit3, Unit4, Unit5, Unit6, Unit7, Unit8, Unit9, Unit10,
-  Unit11;
+  Unit11, Unit12, Unit13, Unit14, Unit15, Unit16, Unit17, Unit18, Unit19,
+  Unit20, Unit21, Unit22, Unit23, Unit24, Unit25, Unit26, Unit27, Unit28,
+  Unit29, Unit30, Unit31;
 
 {$R *.dfm}
 
@@ -69,7 +114,7 @@ begin
 
 end;
 
-procedure TForm2.Form31Click(Sender: TObject);
+procedure TForm2.Form31ksClick(Sender: TObject);
 begin
 
 	form3.showmodal;
@@ -176,6 +221,106 @@ end;
 procedure TForm2.WhileRepeat1Click(Sender: TObject);
 begin
 form11.showmodal;
+end;
+
+procedure TForm2.Lat11Click(Sender: TObject);
+begin
+form12.showmodal;
+end;
+
+procedure TForm2.Lat21Click(Sender: TObject);
+begin
+form13.showmodal;
+end;
+
+procedure TForm2.Lat31Click(Sender: TObject);
+begin
+form14.showmodal;
+end;
+
+procedure TForm2.Lat41Click(Sender: TObject);
+begin
+form15.showmodal;
+end;
+
+procedure TForm2.Lat51Click(Sender: TObject);
+begin
+form16.showmodal;
+end;
+
+procedure TForm2.Lat61Click(Sender: TObject);
+begin
+form17.showmodal;
+end;
+
+procedure TForm2.Lat71Click(Sender: TObject);
+begin
+form18.showmodal;
+end;
+
+procedure TForm2.Lat81Click(Sender: TObject);
+begin
+form19.showmodal;
+end;
+
+procedure TForm2.Lat91Click(Sender: TObject);
+begin
+form20.showmodal;
+end;
+
+procedure TForm2.Lat101Click(Sender: TObject);
+begin
+form21.showmodal;
+end;
+
+procedure TForm2.Lat111Click(Sender: TObject);
+begin
+form22.showmodal;
+end;
+
+procedure TForm2.Lat121Click(Sender: TObject);
+begin
+form23.showmodal;
+end;
+
+procedure TForm2.Lat131Click(Sender: TObject);
+begin
+form24.showmodal;
+end;
+
+procedure TForm2.Soal11Click(Sender: TObject);
+begin
+FORM25.showmodal;
+end;
+
+procedure TForm2.Soal21Click(Sender: TObject);
+begin
+form26.showmodal;
+end;
+
+procedure TForm2.Soal31Click(Sender: TObject);
+begin
+form27.showmodal;
+end;
+
+procedure TForm2.Soal41Click(Sender: TObject);
+begin
+form28.showmodal;
+end;
+
+procedure TForm2.Soal51Click(Sender: TObject);
+begin
+form29.showmodal;
+end;
+
+procedure TForm2.N11Click(Sender: TObject);
+begin
+form30.ShowModal;
+end;
+
+procedure TForm2.N21Click(Sender: TObject);
+begin
+form31.ShowModal;
 end;
 
 end.

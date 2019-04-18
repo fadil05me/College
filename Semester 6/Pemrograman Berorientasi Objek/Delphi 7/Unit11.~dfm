@@ -1,6 +1,6 @@
 object Form11: TForm11
-  Left = 687
-  Top = 240
+  Left = 206
+  Top = 139
   Width = 450
   Height = 450
   Caption = 'While - Repeat'
