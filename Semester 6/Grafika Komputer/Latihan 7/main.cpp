@@ -1,5 +1,5 @@
 /*
-* Fourth Program
+* Seventh Program
 */
 
 #include <windows.h>
@@ -56,7 +56,7 @@ int main(int argc, char** argv)
 	glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
 	glutInitWindowSize(640, 480);
 	glutInitWindowPosition(600, 100);
-	glutCreateWindow("Fourth Program");
+	glutCreateWindow("Seventh Program");
 	glutDisplayFunc(display);
 	glutMainLoop();
 	return 0;
