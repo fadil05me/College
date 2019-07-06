@@ -1,2 +1,2 @@
-#Tugas Grafika Komputer Kelompok 1
+# Tugas Grafika Komputer Kelompok 1
 
